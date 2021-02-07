@@ -6,10 +6,15 @@ namespace State
 {
     public class Inicial : Status
     {
+        public Inicial()
+        {
+            Nome = "Inicial";
+        }
+
         public override void Handle(IControladorStatus controlador)
         {
             controlador.SetNewStatus(new Medio());
-            Console.WriteLine("Inicial");
+            Console.WriteLine(Nome);
         }
     }
 }

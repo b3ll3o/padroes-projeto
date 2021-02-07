@@ -6,10 +6,15 @@ namespace State
 {
     public class Avancado : Status
     {
+        public Avancado()
+        {
+            Nome = "Avancado";
+        }
+
         public override void Handle(IControladorStatus controlador)
         {
             controlador.SetNewStatus(new Inicial());
-            Console.WriteLine("Avancado");
+            Console.WriteLine(Nome);
         }
     }
 }

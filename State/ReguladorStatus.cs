@@ -6,21 +6,21 @@ namespace State
 {
     public class ReguladorStatus : IControladorStatus
     {
-        public Status _status;
-
         public ReguladorStatus()
         {
             SetNewStatus(new Inicial());
         }
 
+        public Status Status { get; private set; }
+
         public void Handle()
         {
-            _status.Handle(this);
+            Status.Handle(this);
         }
 
         public void SetNewStatus(Status status)
         {
-            _status = status;
+            Status = status;
         }
     }
 }

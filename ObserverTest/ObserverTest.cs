@@ -7,7 +7,7 @@ namespace ObserverTest
     public class ObserverTest
     {
         [Fact]
-        public void DeveTerUmGanhadorLeilao()
+        public void LeilaoDeveTerUmGanhador()
         {
             var leiloeiro = new Leiloeiro();
 
