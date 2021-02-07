@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace Observer
 {
     public class Leiloeiro
     {
-        private decimal _lance;
+        private ICollection<Lance> _lances;
         private ICollection<IObserver> _participantes;
 
         public Leiloeiro()
         {
-            _lance = 10;
             _participantes = new List<IObserver>();
+            _lances = new List<Lance>();
         }
+
+        public ParticipanteLeilao Vencedor { get; private set; }
 
         public void AdicionarParticipante(IObserver participante)
         {
@@ -21,12 +24,13 @@ namespace Observer
         }
 
 
-        public void NovoLance()
+        public void RecebeLance(Lance lance)
         {
-            _lance += 10;
+            _lances.Add(lance);
+            Vencedor = lance.Participante;
             foreach (var participante in _participantes)
             {
-                participante.Observar(_lance);
+                participante.Observar(lance);
             }
         }
     }

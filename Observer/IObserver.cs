@@ -6,6 +6,6 @@ namespace Observer
 {
     public interface IObserver
     {
-        void Observar(decimal novoLance);
+        void Observar(Lance lance);
     }
 }

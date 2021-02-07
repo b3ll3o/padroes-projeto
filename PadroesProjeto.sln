@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsabilityTest",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandTest", "CommandTest\CommandTest.csproj", "{C4E68275-05AC-42E9-ADC2-EEACDA954CAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverTest", "ObserverTest\ObserverTest.csproj", "{CB932EFF-FE54-42F0-9503-A225154F2723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C4E68275-05AC-42E9-ADC2-EEACDA954CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4E68275-05AC-42E9-ADC2-EEACDA954CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4E68275-05AC-42E9-ADC2-EEACDA954CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB932EFF-FE54-42F0-9503-A225154F2723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB932EFF-FE54-42F0-9503-A225154F2723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB932EFF-FE54-42F0-9503-A225154F2723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB932EFF-FE54-42F0-9503-A225154F2723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,21 +6,16 @@ namespace Observer
 {
     public class Participante : ParticipanteLeilao
     {
-        public Participante(Leiloeiro leiloeiro, decimal lance)
+        public Participante(string nome) : base(nome)
         {
-            _leiloeiro = leiloeiro;
-            _lance = lance;
         }
 
-        public override void Observar(decimal novoLance)
+        public override void Observar(Lance lance)
         {
-            _lance = novoLance;
+            _ultimoLance = lance;
         }
 
-        public void FazerLance()
-        {
-            Console.WriteLine(_lance);
-            _leiloeiro.NovoLance();
-        }
+        public Lance FazerLance(decimal valor)
+            => new Lance(this, valor);
     }
 }

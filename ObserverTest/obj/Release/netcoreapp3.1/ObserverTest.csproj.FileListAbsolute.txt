@@ -1,0 +1,4 @@
+C:\Users\andre\source\repos\PadroesProjeto\ObserverTest\obj\Release\netcoreapp3.1\ObserverTest.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\PadroesProjeto\ObserverTest\obj\Release\netcoreapp3.1\ObserverTest.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\PadroesProjeto\ObserverTest\obj\Release\netcoreapp3.1\ObserverTest.AssemblyInfo.cs
+C:\Users\andre\source\repos\PadroesProjeto\ObserverTest\obj\Release\netcoreapp3.1\ObserverTest.csproj.CoreCompileInputs.cache
