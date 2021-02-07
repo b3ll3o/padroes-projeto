@@ -6,9 +6,9 @@ namespace Chain_of_Resposability
 {
     public class Personagem
     {
-        public void Anda(MovimentaEnum movimento)
+        public string Anda(MovimentaEnum movimento)
         {
-            new Direita(new Esquerda(new Parado())).Movimenta(movimento);
+            return new Direita(new Esquerda(new Parado())).Movimenta(movimento);
         }
     }
 }

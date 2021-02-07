@@ -6,6 +6,6 @@ namespace Chain_of_Resposability
 {
     public interface IMovimenta
     {
-        void Movimenta(MovimentaEnum movimento);
+        string Movimenta(MovimentaEnum movimento);
     }
 }

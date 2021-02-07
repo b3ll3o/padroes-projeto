@@ -10,9 +10,9 @@ namespace Chain_of_Resposability
         {
         }
 
-        public override void Acao(MovimentaEnum movimento)
+        public override string Acao(MovimentaEnum movimento)
         {
-            Console.WriteLine("Parado");
+            return "Parado";
         }
 
         public override bool IsMovimento(MovimentaEnum movimento)

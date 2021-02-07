@@ -10,3 +10,4 @@ C:\Users\andre\source\repos\PadroesProjeto\State\obj\Debug\netcoreapp3.1\State.c
 C:\Users\andre\source\repos\PadroesProjeto\State\obj\Debug\netcoreapp3.1\State.dll
 C:\Users\andre\source\repos\PadroesProjeto\State\obj\Debug\netcoreapp3.1\State.pdb
 C:\Users\andre\source\repos\PadroesProjeto\State\obj\Debug\netcoreapp3.1\State.genruntimeconfig.cache
+C:\Users\andre\source\repos\PadroesProjeto\State\obj\Debug\netcoreapp3.1\State.csprojAssemblyReference.cache

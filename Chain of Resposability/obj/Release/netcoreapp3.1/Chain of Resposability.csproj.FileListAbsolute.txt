@@ -1,0 +1,4 @@
+C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Release\netcoreapp3.1\Chain of Resposability.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Release\netcoreapp3.1\Chain of Resposability.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Release\netcoreapp3.1\Chain of Resposability.AssemblyInfo.cs
+C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Release\netcoreapp3.1\Chain of Resposability.csproj.CoreCompileInputs.cache

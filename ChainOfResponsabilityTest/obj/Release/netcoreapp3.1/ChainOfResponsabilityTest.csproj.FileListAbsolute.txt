@@ -1,0 +1,3 @@
+C:\Users\andre\source\repos\PadroesProjeto\ChainOfResponsabilityTest\obj\Release\netcoreapp3.1\ChainOfResponsabilityTest.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\PadroesProjeto\ChainOfResponsabilityTest\obj\Release\netcoreapp3.1\ChainOfResponsabilityTest.AssemblyInfo.cs
+C:\Users\andre\source\repos\PadroesProjeto\ChainOfResponsabilityTest\obj\Release\netcoreapp3.1\ChainOfResponsabilityTest.csproj.CoreCompileInputs.cache

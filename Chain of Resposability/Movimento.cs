@@ -13,17 +13,17 @@ namespace Chain_of_Resposability
             _proxima = movimenta;
         }
 
-        public void Movimenta(MovimentaEnum movimento)
+        public string Movimenta(MovimentaEnum movimento)
         {
             if (IsMovimento(movimento))
-                Acao(movimento);
-            else
-                _proxima.Movimenta(movimento);
+                return Acao(movimento);
+            
+            return _proxima.Movimenta(movimento);
         }
 
         public abstract bool IsMovimento(MovimentaEnum movimento);
 
-        public abstract void Acao(MovimentaEnum movimento);
+        public abstract string Acao(MovimentaEnum movimento);
             
     }
 }

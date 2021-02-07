@@ -4,7 +4,6 @@ C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\bin\Debug\netc
 C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\bin\Debug\netcoreapp3.1\Chain of Resposability.runtimeconfig.dev.json
 C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\bin\Debug\netcoreapp3.1\Chain of Resposability.dll
 C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\bin\Debug\netcoreapp3.1\Chain of Resposability.pdb
-C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Debug\netcoreapp3.1\Chain of Resposability.csprojAssemblyReference.cache
 C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Debug\netcoreapp3.1\Chain of Resposability.AssemblyInfoInputs.cache
 C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Debug\netcoreapp3.1\Chain of Resposability.AssemblyInfo.cs
 C:\Users\andre\source\repos\PadroesProjeto\Chain of Resposability\obj\Debug\netcoreapp3.1\Chain of Resposability.csproj.CoreCompileInputs.cache
