@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateTest", "StateTest\Stat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyTest", "StrategyTest\StrategyTest.csproj", "{0A4237C1-713C-460C-950C-1BBF2092F395}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodyTest", "TemplateMethodyTest\TemplateMethodyTest.csproj", "{ED016561-2019-4A82-96B0-94A1E2C74600}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{0A4237C1-713C-460C-950C-1BBF2092F395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A4237C1-713C-460C-950C-1BBF2092F395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A4237C1-713C-460C-950C-1BBF2092F395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED016561-2019-4A82-96B0-94A1E2C74600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED016561-2019-4A82-96B0-94A1E2C74600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED016561-2019-4A82-96B0-94A1E2C74600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED016561-2019-4A82-96B0-94A1E2C74600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
