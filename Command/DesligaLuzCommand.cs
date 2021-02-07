@@ -13,9 +13,9 @@ namespace Command
             _luz = luz;
         }
 
-        public void Execute()
+        public string Execute()
         {
-            _luz.Desliga();
+            return _luz.Desliga();
         }
     }
 }

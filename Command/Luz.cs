@@ -6,14 +6,14 @@ namespace Command
 {
     public class Luz
     {
-        public void Liga()
+        public string Liga()
         {
-            Console.WriteLine("Liga");
+            return "Liga";
         }
 
-        public void Desliga()
+        public string Desliga()
         {
-            Console.WriteLine("Desliga");
+            return "Desliga";
         }
     }
 }

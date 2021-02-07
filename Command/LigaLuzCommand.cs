@@ -13,9 +13,9 @@ namespace Command
             _luz = luz;
         }
 
-        public void Execute()
+        public string Execute()
         {
-            _luz.Liga();
+            return _luz.Liga();
         }
     }
 }
